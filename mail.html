@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        header {
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 36px;
+    border: 0.5px solid rgba(83, 83, 83, 0.3); 
+    box-shadow: 0 2px 10px rgba(83, 83, 83, 0.1); 
+    height: 90px;;
+        }
+        .mailimage {
+            width : 150px;
+            height : 119px;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            margin-left: 45px;
+           
+            
+            
+        }
+        .container{
+
+            background-color: #ECECEC;
+            padding:40px;
+            display: flex;
+            flex-direction: column;
+            
+            margin-top: 1%;
+            margin-left: 1%;
+            margin-right: 1%;
+            border-radius: 36px;
+             
+             background-color: transparent; 
+             border: 0.1px solid rgba(83, 83, 83, 0.3); 
+            box-shadow: 0 2px 10px rgba(83, 83, 83, 0.1); 
+            height: 600px;
+             
+
+        }
+        .heading{
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            position: relative;
+            margin-top:-20px;
+            margin-left:2%;
+            opacity: 50%;
+            margin-top: -25px;
+
+        }
+        .main{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            position: relative;
+            font-size: 50px;
+            margin-top: -20px;
+
+         
+        }
+        .subject{
+            
+            position: relative;
+            margin-left: 2%;
+            margin-bottom: 0%;
+            
+}
+
+        
+        .conclusion{
+            
+           display: flex;
+           justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-top: -40px;
+            
+            
+            
+            
+
+        }
+        .conctext{
+            font-family: 'Poppins',sans-serif;
+            font-weight: 300;
+            opacity: 50%;
+            font-size: 15px;
+            display: inline;
+        }
+        .footer{
+            
+             display: flex;
+             padding: 0;
+        border-radius: 36px;
+        border: 1px solid #535353C2; 
+        border-color: #535353C2;
+        position: relative;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        background-color: transparent; 
+        border: 0.1px solid rgba(83, 83, 83, 0.3); 
+    box-shadow: 0 2px 10px rgba(83, 83, 83, 0.1); 
+    flex-direction: column;
+    height: 200px;
+}
+        
+        .ftext{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight:400;
+            font-size: 15px;
+            margin-left: 3.5%;
+
+            
+        }
+        .texter{
+            opacity:50%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight:400;
+            font-size: 15px;
+            margin-bottom: 0;
+            
+        }
+        .subtext{
+            
+            font-family: Arial;
+            font-weight: 300;
+            font-size: 17px;
+            font-weight: 400;
+        }
+        .footlink{
+            color: #4B56F4;
+            opacity:100%;
+        }
+        .weblink{
+            color: #4B56F4;
+        }
+        .discordlink{
+            color: #4B56F4;
+        }
+        .copylink{
+            color: #4B56F4;
+        }
+       .spotlink{
+        color:#4B56F4
+       }
+        @media screen and (max-width: 768px) {
+            header {
+                 padding: 5px;
+                 height: 70px;
+                flex-direction: row; 
+                justify-content: flex-start;
+                align-items: center;
+                
+             }
+             .mailimage{
+                width : 120px;
+                margin : 0%;
+                display: flex;
+            flex-direction: row;
+            position: relative;
+            margin-left: 10px;
+
+             }
+             .heading{
+                font-size: 16px;
+                display: flex;
+                    flex-direction: row;
+
+                margin-top: auto;
+                
+            
+
+             }
+             .container{
+                padding: 10px;
+                margin-top: 2.7%;
+                height: 600px;
+             }
+             .main{
+                font-size: 18px;
+                display: flex;
+                position: relative;
+                margin-top: -10px;
+                justify-content: center;
+                align-items: center;
+             }
+             .subject{
+                
+                display: flex;
+            flex-direction: column;
+            position: relative;
+            margin-top: 2%;
+            margin-bottom: 0;
+             }
+             .subtext{
+                font-size: 15px;
+                position: relative;
+                margin-top: 0%;
+                margin-bottom: 0%;
+              
+             }
+             .conclusion{
+                font-size: 14px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+               
+            margin-right: 2%;
+            
+                
+                
+                
+             }
+            
+             .footer{
+                margin-top: 1%;
+                flex-direction: column;
+                height: auto;
+
+
+
+             }
+             .conctext{
+                font-size: 12px;
+                margin-bottom: 0%;
+             }
+                
+             .footlink{
+                position: relative;
+                margin-top: -10px;
+                
+             }
+            
+        }
+        @media screen and (max-width:330px){
+            .subtext{
+                font-size: 11px;
+            }
+           
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <a href =  "https://www.arcconsoles.com/" class = "logo-link">
+        <img src = "maillogo.svg" alt = "mailimage" class = "mailimage"/>
+       </a>
+
+    </header>
+    <section class = "container">
+        
+            <h5 class = "heading">Join The Tribe </h5>
+        
+           
+                <h1 class = "main">Thank you for signing up !</h1>
+              
+                <div class = "subject">
+                <h5 class = "subtext">Welcome aboard—you’ve secured early access to Arc Consoles, where the future plays more and plays better.
+                    <br>
+                    <br>
+                    <br>
+                
+                You’re currently #80 of 80 on the waitlist.
+                <br>
+                <br>
+                <br>
+                🚀 Want to jump the queue? Share your unique link below:
+                <br>
+                <br>
+                <br>
+                <div class = "copycontainer">
+                <a href = "https://getwaitlist.com/waitlist/25622?ref_id=RS7E4NG7C" class = "copylink">https://getwaitlist.com/waitlist/25622?ref_id=RS7E4NG7C</a>
+                <span>&nbsp;</span>
+                <svg onclick="navigator.clipboard.writeText('https://getwaitlist.com/waitlist/25622?ref_id=RS7E4NG7C').then(() => alert('Copied!'))" 
+                     xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/></svg>
+            </div>
+                <br>
+                <br>
+                
+                👀 Check your spot anytime:
+                <br>
+                <br>
+                <br>
+                <a href = "https://getwaitlist.com/waitlist/25622" class = "spotlink">https://getwaitlist.com/waitlist/25622</a>
+                <br>
+                <br>
+                <br>
+                Join the Arc community on Discord for early updates and real feedback
+                <br>
+                <br>
+                <br>
+               <a href="https://getwaitlist.com/waitlist/25622?ref_id=RS7E4NG7C" class = "discordlink">🔗 https://getwaitlist.com/waitlist/25622?ref_id=RS7E4NG7C</a>
+            </h5>
+            </div>
+                <br>
+                <br>
+               
+                <br>
+                
+
+           
+
+           
+            
+
+        </section>
+        <div class = "footer">
+            <h5 class = "ftext">
+                
+                <div class = "conclusion"><h5 class = "conctext">Need help ?  Just reply to this email or contact us at  </h5>
+                    <span>&nbsp;</span>
+                    <a href = "mailto:support@arcconsoles.com"  class = "footlink">support@arcconsoles.com</a></div>
+                
+                
+          <div class = "txt">
+            <h5 class = "texter">
+                Thanks for shaping what’s next.
+                <br>
+                <br>
+    
+                Onward,
+                <br>
+                The Arc Consoles Team
+                
+            </h5>
+               <a href = "www.arcconsoles.com" class = "weblink">www.arcconsoles.com</a> 
+            </div>
+           
+            </h5>
+            
+           
+        </div>
+    
+</body>
+</html>
